@@ -4,6 +4,7 @@
  */
 package ec.edu.intsuperior.vista;
 
+import ec.edu.intsuperior.modelo.Arreglos;
 import java.util.Scanner;
 
 /**
@@ -20,6 +21,7 @@ public class Aplicacion {
         //Aplicacion.Ejercicio_5();
         //Aplicacion.Ejercicio_6();
         //Aplicacion.Ejercicio_7(); a la mitad 
+        Arreglos.llenar();
     }
     public static void Ejercicio_1() {
         //pedir tres valores y mostrarlos ordenados de mayor a menor 
